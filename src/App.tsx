@@ -1,8 +1,15 @@
+import Navbar from "./components/layouts/Navbar";
+
 function App() {
   return (
-    <div className="bg-blue-500 text-white text-4xl p-10">
-      Tailwind con Yarn 🔥
-    </div>
+    <>
+      <Navbar />
+
+      <main className="pt-20">
+        {/* Aquí van tus páginas */}
+        <h1>Home</h1>
+      </main>
+    </>
   );
 }
 
