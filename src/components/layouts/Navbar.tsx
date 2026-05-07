@@ -1,74 +1,56 @@
-import { useState } from "react";
+import { NavLink, Link } from 'react-router-dom';
+import { Pizza } from "lucide-react";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
+const links = [
+  { name: 'Inicio', path: '/' },
+  { name: 'Menú', path: '/menu' },
+  { name: 'Nosotros', path: '/nosotros' },
+  { name: 'Galería', path: '/galeria' },
+  { name: 'Contacto', path: '/contacto' },
+];
+
+export const Navbar = () => {
   return (
-    <header className="w-full bg-white shadow-sm fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
-        
-        {/* LOGO */}
-        <div className="flex items-center gap-2">
-          <img
-            src="/bel-ana-logo.png"
-            alt="BelAna Pizzería"
-            className="h-14 w-auto"
-          />
-        </div>
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-20 ">
+          
+        <div className="w-52 relative">
+  <Link to="/" className="block">
+    <img 
+      src="/bel-ana-logo.png" 
+      alt="Pizzería Bel Ana Logo" 
+      className="absolute -top-[76px] left-0 h-[260px] w-[260px] object-contain"
+    />
+  </Link>
+</div>
 
-        {/* NAV LINKS DESKTOP */}
-        <nav className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-          <a href="#" className="hover:text-green-700 transition">
-            Inicio
-          </a>
-          <a href="#" className="hover:text-green-700 transition">
-            Menú
-          </a>
-          <a href="#" className="hover:text-green-700 transition">
-            Nosotros
-          </a>
-          <a href="#" className="hover:text-green-700 transition">
-            Galería
-          </a>
-          <a href="#" className="hover:text-green-700 transition">
-            Contacto
-          </a>
-        </nav>
+          <div className="hidden md:flex items-center gap-x-8 ">
+            {links.map((link) => (
+              <NavLink
+                key={link.path}
+                to={link.path}
+                className={({ isActive }) =>
+                  `text-sm font-medium transition-colors duration-200 ${
+                    isActive ? 'text-red-800' : 'text-green-800  hover:text-red-800'
+                  }`
+                }
+              >
+                {link.name}
+              </NavLink>
+            ))}
+          </div>
 
-        {/* CTA BUTTON */}
-        <div className="hidden md:flex">
-          <button className="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full font-semibold transition">
-            Haz tu pedido 🍕
+          <div className="hidden md:flex items-center">
+          <button className="bg-red-800 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-red-700 transition-all duration-300 shadow-md flex items-center gap-2 hover:scale-105">
+            Haz tu pedido
+            <Pizza size={18} />
           </button>
-        </div>
+          </div>
 
-        {/* MOBILE MENU BUTTON */}
-        <button
-          className="md:hidden text-gray-700"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          ☰
-        </button>
+        </div>
       </div>
-
-      {/* MOBILE MENU */}
-      {isOpen && (
-        <div className="md:hidden bg-white px-4 pb-4 shadow-md">
-          <nav className="flex flex-col gap-4 text-gray-700 font-medium">
-            <a href="#">Inicio</a>
-            <a href="#">Menú</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Galería</a>
-            <a href="#">Contacto</a>
-
-            <button className="bg-red-600 text-white py-2 rounded-full mt-2">
-              Haz tu pedido 🍕
-            </button>
-          </nav>
-        </div>
-      )}
-    </header>
+    </nav>
   );
 };
-
-export default Navbar;

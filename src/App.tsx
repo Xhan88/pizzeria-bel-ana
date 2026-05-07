@@ -1,14 +1,11 @@
-import Navbar from "./components/layouts/Navbar";
+import { Navbar } from "./components/layouts/Navbar";
+import { AppRouter } from "./routes/AppRouter";
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <main className="pt-20">
-        {/* Aquí van tus páginas */}
-        <h1>Home</h1>
-      </main>
+      <AppRouter />
     </>
   );
 }
