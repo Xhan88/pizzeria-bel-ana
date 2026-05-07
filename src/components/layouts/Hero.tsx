@@ -55,7 +55,7 @@ export const Hero = () => {
             <img
               src="/pizza-home.png"
               alt="Pizza artesanal"
-              className="w-[850px] max-w-none object-contain drop-shadow-2xl"
+              className="w-[850px] max-w-none object-contain drop-shadow-2xl translate-x-32"
             />
 
           </div>
