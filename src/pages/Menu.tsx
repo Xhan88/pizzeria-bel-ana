@@ -1,7 +1,9 @@
+import { MenuSection } from "../components/menu/MenuSection";
+
 export const Menu = () => {
     return (
       <div>
-        Menu
+        <MenuSection />
       </div>
     );
   };

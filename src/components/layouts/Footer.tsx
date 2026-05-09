@@ -1,10 +1,13 @@
 import {
-    InstagramIcon,
-    FacebookIcon,
     MessageCircle,
     MapPin,
     Phone,
   } from "lucide-react";
+  
+  import {
+    FaInstagram,
+    FaFacebookF,
+  } from "react-icons/fa";
   
   import { Link } from "react-router-dom";
   
@@ -20,12 +23,12 @@ import {
     return (
       <footer className="w-full bg-[#f7f4ef] pt-16">
   
-        {/* TOP */}
+        
         <div className="max-w-7xl mx-auto px-6">
   
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 items-start pb-14">
   
-            {/* BRAND */}
+            
             <div>
               <h3 className="text-3xl font-bold text-[#184d2f]">
                 BelAna Pizzería
@@ -37,21 +40,21 @@ import {
                 y mucho amor.
               </p>
   
-              {/* SOCIALS */}
+             
               <div className="flex items-center gap-4 mt-6">
 
 <a
   href="#"
   className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
 >
-  <InstagramIcon size={20} />
+<FaInstagram size={18} />
 </a>
 
 <a
   href="#"
   className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
 >
-  <FacebookIcon size={20} />
+<FaFacebookF size={18} />
 </a>
 
 <a
@@ -64,7 +67,7 @@ import {
 </div>
             </div>
   
-            {/* LINKS */}
+            
             <div className="lg:border-l lg:border-r border-gray-300 lg:px-10">
               <h4 className="text-2xl font-semibold text-[#184d2f] mb-5">
                 Enlaces
@@ -84,7 +87,7 @@ import {
               </ul>
             </div>
   
-            {/* HORARIO */}
+            
             <div>
               <h4 className="text-2xl font-semibold text-[#184d2f] mb-5">
                 Horario
@@ -96,7 +99,7 @@ import {
               </div>
             </div>
   
-            {/* CONTACT */}
+            
             <div className="lg:border-l border-gray-300 lg:pl-10">
               <h4 className="text-2xl font-semibold text-[#184d2f] mb-5">
                 Contáctanos
@@ -129,7 +132,7 @@ import {
               </div>
             </div>
   
-            {/* LOGO */}
+            
             <div className="flex justify-center lg:justify-end">
               <img
                 src="/bel-ana-logo.png"
@@ -141,10 +144,10 @@ import {
           </div>
         </div>
   
-        {/* BOTTOM */}
+        
         <div className="bg-gradient-to-r from-[#0d4b2d] via-[#14532d] to-[#0d4b2d] py-5 text-center">
           <p className="text-white text-base">
-            © 2024 BelAna Pizzería. Todos los derechos reservados.
+            © 2026 BelAna Pizzería. Todos los derechos reservados.
           </p>
         </div>
   
