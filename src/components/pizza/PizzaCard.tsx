@@ -14,7 +14,6 @@ type PizzaCardProps = {
     return (
       <article className="bg-white rounded-[28px] shadow-xl overflow-hidden hover:-translate-y-2 transition-all duration-300 group">
   
-        {/* IMAGE */}
         <div className="overflow-hidden">
           <img
             src={image}
@@ -23,7 +22,6 @@ type PizzaCardProps = {
           />
         </div>
   
-        {/* CONTENT */}
         <div className="p-6">
   
           <h3 className="text-[2rem] font-bold text-green-900">

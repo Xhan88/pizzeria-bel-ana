@@ -7,7 +7,6 @@ export const FavoritePizzas = () => {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
-        {/* TITLE */}
         <div className="flex items-center justify-center gap-6 mb-20">
 
           <div className="w-24 h-[2px] bg-red-700"></div>
@@ -20,7 +19,6 @@ export const FavoritePizzas = () => {
 
         </div>
 
-        {/* GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10">
 
           {pizzas.map((pizza) => (

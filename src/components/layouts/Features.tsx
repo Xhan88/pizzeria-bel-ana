@@ -2,9 +2,9 @@ import {
     Leaf,
     Heart,
     Bike,
+    Flame,
   } from "lucide-react";
   
-  import { Flame } from "lucide-react";  
   const features = [
     {
       icon: <Leaf size={42} strokeWidth={1.8} />,
@@ -14,7 +14,8 @@ import {
     },
   
     {
-        icon: <Flame size={42} strokeWidth={1.8} />,      title: "Horneadas\nal momento",
+      icon: <Flame size={42} strokeWidth={1.8} />,
+      title: "Horneadas\nal momento",
       description:
         "Preparamos tu pizza al instante.",
     },
@@ -36,11 +37,11 @@ import {
   
   export const Features = () => {
     return (
-      <section className="relative z-20 -mt-10">
-        
+      <section className="relative z-20 -mt-22 w-full">
+  
         <div className="w-full">
   
-          <div className="bg-gradient-to-r from-[#0d4b2d] via-[#14532d] to-[#0d4b2d] rounded-none lg:rounded-sm shadow-2xl overflow-hidden">
+          <div className="bg-gradient-to-r from-[#0d4b2d] via-[#14532d] to-[#0d4b2d] shadow-2xl overflow-hidden">
   
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
   
@@ -54,23 +55,13 @@ import {
                       : ""
                   }`}
                 >
-                  
-                  {/* ICON */}
+  
+                 
                   <div className="text-white mt-1 shrink-0">
-  
-                    {feature.customIcon ? (
-                      <img
-                        src={ovenIcon}
-                        alt="Horno"
-                        className="w-11 h-11 object-contain invert"
-                      />
-                    ) : (
-                      feature.icon
-                    )}
-  
+                    {feature.icon}
                   </div>
   
-                  {/* TEXT */}
+                 
                   <div>
   
                     <h3 className="text-white text-3xl font-semibold leading-tight whitespace-pre-line">
@@ -84,6 +75,7 @@ import {
                   </div>
                 </div>
               ))}
+  
             </div>
           </div>
         </div>
