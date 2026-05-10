@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import { Home } from "../pages/Home";
 import { Menu } from "../pages/Menu";
-import { Nosotros } from "../pages/Nosotros";
+import  Nosotros  from "../pages/Nosotros";
 import { Galeria } from "../pages/Galeria";
 import { Contacto } from "../pages/Contacto";
 
