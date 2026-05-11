@@ -1,7 +1,9 @@
+import Gallery from "../components/galeria/Gallery";
+
 export const Galeria = () => {
     return (
       <div>
-        Galeria
+        <Gallery />
       </div>
     );
   };
