@@ -5,13 +5,16 @@ import { ComboCard } from "./ComboCard";
 export const MenuSection = () => {
   return (
     <section className="py-28 bg-[#f7f4ef]">
+      
 
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TITLE */}
         <div className="text-center">
 
-          <h2 className="text-7xl font-bold text-[#184d2f]">
+          
+
+          <h2 className="text-5xl md:text-7xl font-black text-[#173d2d] leading-none">
             Nuestro menú
           </h2>
 

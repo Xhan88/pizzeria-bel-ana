@@ -26,7 +26,7 @@ const AboutHero = () => {
               una experiencia que combina tradición, pasión y sabor en cada bocado..
             </p>
   
-            <h3 className="mt-10 text-4xl text-[#124734] italic">
+            <h3 className="mt-10 text-4xl text-[#124734] font-signature">
               Buenas pizzas, buenos momentos.
             </h3>
           </div>
@@ -37,7 +37,7 @@ const AboutHero = () => {
   
             <div className="absolute -bottom-59 -left-10">
               <img
-                src="/nosotros/horno-nosotros.jpg"
+                src="/nosotros/horno-nosotros.png"
                 alt="Albahaca"
                 className="mt-10 drop-shadow-2xl"
               />

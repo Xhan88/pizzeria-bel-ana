@@ -1,3 +1,4 @@
+import { Camera } from "lucide-react";
 import GalleryCard from "./GalleryCard";
 import { galleryImages } from "./galleryData";
 
@@ -6,17 +7,8 @@ const Gallery = () => {
     <section className="py-28 ">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* <div className="text-center mb-20">
-          <p className="uppercase tracking-[5px] text-[#c97b36] font-semibold">
-            Galería
-          </p>
 
-          <h2 className="text-6xl font-black text-[#2b1d15] mt-4">
-            Hechas con pasión
-          </h2>
-        </div> */}
-
-        <section className="w-full py-5  overflow-hidden">
+        <section className="w-full   overflow-hidden">
 
   <div className="max-w-7xl mx-auto px-6">
 
@@ -28,11 +20,10 @@ const Gallery = () => {
 
         <div className="w-16 h-[2px] bg-[#d62828]" />
 
-        <img
-          src="/icons/camera.png"
-          alt="camera"
-          className="w-14"
-        />
+           <Camera
+            size={60}
+            className="text-[#d62828]"
+            />
 
         <div className="w-16 h-[2px] bg-[#d62828]" />
 
