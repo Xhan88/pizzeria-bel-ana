@@ -11,7 +11,7 @@ const AboutHero = () => {
   
             <h1 className="mt-6 text-5xl lg:text-7xl font-bold leading-tight text-[#124734]">
               Una historia hecha
-              <span className="text-[#c0392b]">
+              <span className="text-[#c0392b] font-signature">
                 {" "}de amor por la pizza
               </span>
             </h1>
