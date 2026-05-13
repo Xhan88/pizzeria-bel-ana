@@ -8,10 +8,8 @@ const ContactHero = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-          {/* LEFT CONTENT */}
           <div>
 
-            {/* MINI TITLE */}
             <div className="flex items-center gap-4 mb-8">
 
               <div className="w-14 h-[2px] bg-[#d62828]" />
@@ -24,7 +22,6 @@ const ContactHero = () => {
 
             </div>
 
-            {/* MAIN TITLE */}
             <h1 className="text-6xl md:text-7xl font-black leading-none text-[#173d2d]">
               Estamos aquí
             </h1>
@@ -33,22 +30,18 @@ const ContactHero = () => {
               para ti
             </h1>
 
-            {/* DESCRIPTION */}
             <p className="text-[#4f6257] text-xl leading-relaxed mt-8 max-w-xl">
               Nos encantaría saber de ti. Escríbenos,
               visítanos o haz tu pedido.
               ¡Te esperamos!
             </p>
 
-            {/* SIGNATURE */}
             <p className="mt-10 text-4xl text-[#173d2d] font-signature">
               Buenas pizzas, buenos momentos.
             </p>
 
-            {/* LINE */}
             <div className="w-64 h-[2px] bg-[#d62828] mt-4" />
 
-            {/* DECORATIONS */}
             <div className="flex items-center gap-10 mt-10 opacity-80">
 
               <img
@@ -73,10 +66,8 @@ const ContactHero = () => {
 
           </div>
 
-          {/* RIGHT IMAGE */}
           <div className="relative">
 
-            {/* DECORATION */}
             <div className="absolute -top-6 -right-4 rotate-12">
 
               <MoveRight
@@ -86,7 +77,6 @@ const ContactHero = () => {
 
             </div>
 
-            {/* IMAGE */}
             <img
               src="/contacto/local-belo-ana.png"
               alt="BelAna Pizzeria"

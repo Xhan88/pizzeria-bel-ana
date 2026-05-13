@@ -3,7 +3,6 @@ const AboutHero = () => {
       <section className="w-full min-h-screen bg-[#f8f4ee] pt-32 px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
           
-          {/* LEFT CONTENT */}
           <div>
             <span className="text-[#c0392b] uppercase tracking-[4px] text-sm font-semibold">
               Sobre BelAna
@@ -31,7 +30,6 @@ const AboutHero = () => {
             </h3>
           </div>
   
-          {/* RIGHT IMAGE */}
           <div className="relative">
 
   

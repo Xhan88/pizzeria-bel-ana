@@ -9,24 +9,20 @@ const StorySection = () => {
 
       <div className="max-w-7xl  grid lg:grid-cols-[1.4fr_1fr] gap-10 items-center">
         
-        {/* LEFT IMAGES */}
         <div className="relative">
           
-          {/* MAIN IMAGE */}
           <img
             src="./nosotros/histori.png"
             alt="Chef preparando pizza"
             className="w-[80rem] h-[30rem] "
           />
 
-          {/* FLOATING CARD */}
           <div className="absolute -bottom-10 right-[-30px] rotate-[-5deg]">
               
             
           </div>
         </div>
 
-        {/* RIGHT CONTENT */}
         <div>
           
           <span className="uppercase tracking-[4px] text-sm text-[#c0392b] font-semibold">
@@ -51,7 +47,6 @@ const StorySection = () => {
             el sabor y el amor por lo que hacemos.
           </p>
 
-          {/* BUTTON */}
           <button
             className="
               mt-10

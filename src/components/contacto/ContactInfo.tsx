@@ -16,10 +16,8 @@ import {
   
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
   
-              {/* ITEM */}
               <div className="flex items-start gap-5">
   
-                {/* ICON */}
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
                   <MapPin
@@ -28,8 +26,7 @@ import {
                   />
   
                 </div>
-  
-                {/* TEXT */}
+  \
                 <div>
   
                   <h3 className="text-3xl font-bold text-[#173d2d]">
@@ -45,10 +42,9 @@ import {
                 </div>
               </div>
   
-              {/* ITEM */}
               <div className="flex items-start gap-5 border-t md:border-t-0 md:border-l border-[#ece7df] pt-8 md:pt-0 md:pl-10">
   
-                {/* ICON */}
+                
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
                   <Phone
@@ -58,7 +54,7 @@ import {
   
                 </div>
   
-                {/* TEXT */}
+              
                 <div>
   
                   <h3 className="text-3xl font-bold text-[#173d2d]">
@@ -74,17 +70,14 @@ import {
                 </div>
               </div>
   
-              {/* ITEM */}
               <div className="flex items-start gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
   
-                {/* ICON */}
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
                   <FaWhatsapp className="text-white text-[28px]" />
   
                 </div>
   
-                {/* TEXT */}
                 <div>
   
                   <h3 className="text-3xl font-bold text-[#173d2d]">
@@ -100,10 +93,10 @@ import {
                 </div>
               </div>
   
-              {/* ITEM */}
+        
               <div className="flex items-start gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
   
-                {/* ICON */}
+         
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
                   <Clock3
@@ -113,7 +106,6 @@ import {
   
                 </div>
   
-                {/* TEXT */}
                 <div>
   
                   <h3 className="text-3xl font-bold text-[#173d2d]">
