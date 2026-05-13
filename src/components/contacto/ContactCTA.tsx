@@ -30,11 +30,7 @@ const ContactCTA = () => {
           </button>
         </div>
 
-        <img
-          src="/public/basil-leaves.png"
-          alt="Hojas de albahaca"
-          className="absolute right-4 top-1/2 -translate-y-1/2 w-32 md:w-48 opacity-10 pointer-events-none grayscale"
-        />
+ 
 
       </div>
     </section>
