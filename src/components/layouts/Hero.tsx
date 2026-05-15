@@ -63,7 +63,7 @@ export const Hero = () => {
     w-full
 
     mt-6
-    mb-10
+    mb-20
 
     lg:mt-10
     order-3
