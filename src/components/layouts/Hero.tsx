@@ -47,7 +47,7 @@ export const Hero = () => {
                 object-contain
                 drop-shadow-2xl
                 translate-x-10
-                mt-[-90px] lg:mt-0
+                mt-[-10px] lg:mt-0
                 sm:translate-x-16
                 lg:translate-x-40
               "
