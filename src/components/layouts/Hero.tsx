@@ -57,18 +57,22 @@ export const Hero = () => {
 
           {/* BUTTONS */}
           <div
-            className="
-              flex flex-col sm:flex-row gap-4
-              px-5 lg:px-8
-              w-full
-              -mt-36 lg:mt-10
-              order-3
-              lg:absolute
-              lg:left-0
-              lg:bottom-[120px]
-              lg:w-auto
-            "
-          >
+  className="
+    flex flex-col sm:flex-row gap-4
+    px-5 lg:px-8
+    w-full
+
+    mt-6
+    mb-10
+
+    lg:mt-10
+    order-3
+    lg:absolute
+    lg:left-0
+    lg:bottom-[120px]
+    lg:w-auto
+  "
+>
 
             <button className="bg-red-700 hover:bg-red-800 text-white px-7 py-4  rounded-full text-lg font-semibold flex items-center justify-center gap-3 transition-all duration-300 shadow-lg hover:scale-105 w-full sm:w-auto">
               Ver menú
