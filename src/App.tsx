@@ -3,6 +3,7 @@
 import { Footer } from "./components/layouts/Footer";
 // import Loading from "./components/loading/Loading";
 import { Navbar } from "./components/layouts/Navbar";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { AppRouter } from "./routes/AppRouter";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
       <Navbar />
       <AppRouter />
       <Footer />
