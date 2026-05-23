@@ -34,6 +34,7 @@ export const Hero = () => {
             <img
               src="/pizza-home.png"
               alt="Pizza artesanal"
+              fetchPriority="high"
               className="
                 w-[125%]
                 sm:w-[110%]
