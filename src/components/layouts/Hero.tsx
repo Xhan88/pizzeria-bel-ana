@@ -6,13 +6,10 @@ export const Hero = () => {
 
       <div className="max-w-7xl mx-auto relative">
 
-        {/* MOBILE / DESKTOP LAYOUT */}
         <div className="grid lg:grid-cols-2 items-center min-h-screen">
 
-          {/* TEXT CONTENT */}
           <div className="relative z-10 px-5  lg:px-8 lg:pt-0 flex flex-col order-1 ">
 
-            {/* TITLE */}
             <h1 className="text-[3.2rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight sm:mt-[-70px] mt-[-00px] ">
 
               <span className="text-green-900 block">
@@ -25,7 +22,6 @@ export const Hero = () => {
 
             </h1>
 
-            {/* DESCRIPTION */}
             <p className="mt-5 text-[1.35rem] md:text-2xl text-gray-700 leading-relaxed max-w-xl">
               Pizzas artesanales hechas con ingredientes
               frescos y mucho amor.
@@ -33,7 +29,6 @@ export const Hero = () => {
 
           </div>
 
-          {/* IMAGE */}
           <div className="relative flex justify-center lg:justify-end order-2 mt-[-40px] lg:mt-[0px]">
 
             <img
@@ -55,7 +50,6 @@ export const Hero = () => {
 
           </div>
 
-          {/* BUTTONS */}
           <div
   className="
     flex flex-col sm:flex-row gap-4

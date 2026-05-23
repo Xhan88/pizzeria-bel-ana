@@ -36,10 +36,8 @@ const ValuesSection = () => {
       backgroundPosition: 'center'
     }}>
       
-      {/* Tu degradado original */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(40,167,69,0.35),_transparent_70%)]" />
 
-      {/* Tus imágenes de fondo originales */}
       <img
         src="/tomato-outline.png"
         alt=""
@@ -54,7 +52,6 @@ const ValuesSection = () => {
 
       <div className="relative max-w-7xl mx-auto">
         
-        {/* TÍTULO PRINCIPAL CON TEXT-SHADOW */}
         <div className="flex items-center justify-center gap-6 mb-16">
           <div className="w-16 h-[2px] bg-[#d94b3d]" />
 
@@ -65,7 +62,6 @@ const ValuesSection = () => {
           <div className="w-16 h-[2px] bg-[#d94b3d]" />
         </div>
 
-        {/* GRID DE VALORES */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-12 lg:gap-y-0">
           {values.map((value, index) => (
             <div
@@ -73,17 +69,14 @@ const ValuesSection = () => {
               className="flex flex-col items-center text-center px-8 py-6 border-white/10 lg:border-r last:border-r-0 backdrop-blur-[1px] bg-black/5 lg:bg-transparent rounded-2xl lg:rounded-none"
             >
               
-              {/* Contenedor del Círculo del Icono */}
               <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center text-[#0f4d37] shadow-2xl transition-transform duration-300 hover:scale-110">
                 {value.icon}
               </div>
 
-              {/* TÍTULO DE LA CARD CON TEXT-SHADOW */}
               <h3 className="mt-8 text-2xl sm:text-3xl font-bold text-white leading-snug [text-shadow:_0_2px_10px_rgba(0,0,0,0.7)]">
                 {value.title}
               </h3>
 
-              {/* DESCRIPCIÓN CON TEXT-SHADOW MÁS COMPACTO */}
               <p className="mt-4 text-white/95 text-base sm:text-lg leading-relaxed [text-shadow:_0_1px_8px_rgba(0,0,0,0.8)] font-medium">
                 {value.description}
               </p>

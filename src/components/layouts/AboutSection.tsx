@@ -4,10 +4,8 @@ export const AboutSection = () => {
   return (
     <section className="relative overflow-hidden bg-[#0b4d2c]">
 
-      {/* ================= MOBILE ================= */}
       <div className="md:hidden">
 
-        {/* TOP CONTENT */}
         <div className="relative px-6 pt-16 pb-14 bg-gradient-to-br from-[#0b4d2c] via-[#0d5b33] to-[#08361f]">
 
           <div className="flex items-center gap-2">
@@ -40,7 +38,6 @@ export const AboutSection = () => {
 
         </div>
 
-        {/* IMAGE SECTION */}
         <div className="relative overflow-hidden">
 
           <img
@@ -53,7 +50,6 @@ export const AboutSection = () => {
         </div>
       </div>
 
-      {/* ================= DESKTOP ================= */}
       <div className="relative h-[350px] hidden md:flex items-center overflow-hidden">
 
         <img

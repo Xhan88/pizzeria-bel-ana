@@ -18,8 +18,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo Container - Ajustado según referencia */}
-  {/* Contenedor del Logo */}
+
 <div className="w-48 md:w-64 relative flex items-center">
   <Link to="/" className="block">
     <img 
@@ -41,7 +40,6 @@ export const Navbar = () => {
   </Link>
 </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-x-8">
             {links.map((link) => (
               <NavLink
@@ -58,7 +56,6 @@ export const Navbar = () => {
             ))}
           </div>
 
-          {/* Action Buttons & Mobile Toggle */}
           <div className="flex items-center gap-3">
             <button className="bg-red-800 text-white px-4 py-2 md:px-6 md:py-2.5 rounded-full text-xs md:text-sm font-semibold hover:bg-red-700 transition-all duration-300 shadow-md flex items-center gap-2 hover:scale-105">
               <span className="hidden xs:inline">Haz tu pedido</span>
@@ -66,7 +63,6 @@ export const Navbar = () => {
               <Pizza size={16} />
             </button>
 
-            {/* Mobile Menu Button */}
             <button 
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden p-2 text-green-800 hover:bg-gray-100 rounded-lg transition-colors"
@@ -77,7 +73,6 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Overlay */}
       <div className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <div className="px-4 pt-2 pb-6 space-y-1 bg-white border-t border-gray-100 shadow-xl">
           {links.map((link) => (

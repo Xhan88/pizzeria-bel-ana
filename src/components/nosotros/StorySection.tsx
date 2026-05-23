@@ -4,11 +4,8 @@ const StorySection = () => {
   return (
     <section className="relative bg-[#f8f4ee] py-16 md:py-24 px-6 overflow-hidden">
       
-      {/* mx-auto centra todo el componente en móvil */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-[-40px] items-center">
         
-        {/* CONTENEDOR DE LA IMAGEN */}
-        {/* En móvil usamos flex y justify-center para que la foto se alinee perfectamente al centro */}
         <div className="relative flex justify-center lg:block w-full">
           
           <img
@@ -24,11 +21,9 @@ const StorySection = () => {
           />
 
           <div className="absolute -bottom-10 right-[-30px] rotate-[-5deg]">
-            {/* Espacio para la polaroid decorativa */}
           </div>
         </div>
 
-        {/* CONTENEDOR DE TEXTO */}
         <div className="text-left mt-4 lg:mt-0">
           
           <span className="uppercase tracking-[4px] text-sm text-[#c0392b] font-semibold">

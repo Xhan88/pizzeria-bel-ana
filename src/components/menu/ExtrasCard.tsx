@@ -11,7 +11,6 @@ export const ExtrasCard = () => {
   return (
     <div className="bg-white rounded-[28px] p-5 lg:p-8 shadow-md overflow-hidden relative">
 
-      {/* HEADER */}
       <div className="flex items-center gap-4 justify-center lg:justify-start">
 
         <h3 className="text-[28px] lg:text-5xl font-bold text-[#184d2f]">
@@ -22,7 +21,6 @@ export const ExtrasCard = () => {
 
       </div>
 
-      {/* EXTRAS */}
       <div className="grid grid-cols-2 lg:grid-cols-1 gap-x-4 gap-y-3 lg:gap-y-6 mt-6 lg:mt-10">
         {extras.map((extra, index) => (
           <div
@@ -43,7 +41,6 @@ export const ExtrasCard = () => {
 
       </div>
 
-      {/* DECORATION */}
       <img
         src="/extras-decoration.png"
         alt=""

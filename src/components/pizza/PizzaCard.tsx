@@ -14,7 +14,6 @@ export const PizzaCard = ({
   return (
     <article className="bg-white rounded-[28px] shadow-xl overflow-hidden hover:-translate-y-2 transition-all duration-300 group">
       
-      {/* MOBILE CARD */}
       <div className="flex items-center gap-4 p-4 md:hidden">
         
         <div className="w-[120px] h-[90px] flex-shrink-0 overflow-hidden rounded-2xl">
@@ -42,7 +41,6 @@ export const PizzaCard = ({
         </div>
       </div>
 
-      {/* DESKTOP CARD */}
       <div className="hidden md:block">
         
         <div className="overflow-hidden">

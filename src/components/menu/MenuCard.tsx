@@ -16,7 +16,6 @@ export const MenuCard = ({
   return (
     <div className="bg-white rounded-[22px] shadow-md overflow-hidden flex items-center">
 
-      {/* IMAGE */}
       <div className="w-[34%] lg:w-[42%] shrink-0 self-stretch">
         <img
           src={image}
@@ -25,10 +24,8 @@ export const MenuCard = ({
         />
       </div>
 
-      {/* CONTENT */}
       <div className="flex-1 p-4 lg:p-8">
 
-        {/* TOP */}
         <div className="flex justify-between gap-3">
 
           <div>
@@ -47,7 +44,6 @@ export const MenuCard = ({
 
         </div>
 
-        {/* TAGS */}
         <div className="flex flex-wrap gap-4 mt-3 lg:mt-8">
 
           {tags?.map((tag, index) => (
