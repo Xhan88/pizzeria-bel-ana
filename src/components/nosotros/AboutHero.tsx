@@ -30,13 +30,12 @@ const AboutHero = () => {
           </h3>
         </div>
 
-        
-        <div className="relative flex justify-center lg:block mt-10 lg:mt-0">
-          <div className="relative lg:absolute lg:-bottom-48 lg:-left-10 w-full max-w-md lg:max-w-none">
+        <div className="flex justify-center lg:justify-end items-center h-full mt-10 lg:mt-0">
+          <div className="w-full max-w-md lg:max-w-xl lg:pt-12"> 
             <img
               src="/nosotros/horno-nosotros.png"
               alt="Horno de leña con pizza" 
-              className="w-full h-auto drop-shadow-2xl object-contain rounded-2xl md:rounded-none"
+              className="w-full h-auto drop-shadow-2xl object-contain rounded-2xl lg:rounded-3xl"
             />
           </div>
         </div>

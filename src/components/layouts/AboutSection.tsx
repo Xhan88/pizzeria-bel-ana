@@ -50,6 +50,8 @@ export const AboutSection = () => {
         </div>
       </div>
 
+
+
       <div className="relative h-[350px] hidden md:flex items-center overflow-hidden">
 
         <img
