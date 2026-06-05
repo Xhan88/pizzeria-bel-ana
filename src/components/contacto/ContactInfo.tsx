@@ -34,9 +34,11 @@ import {
                   </h3>
   
                   <p className="text-[#4f6257] mt-4 text-lg leading-relaxed">
-                    Calle 123 #45-67
+                    Col. Centro Gpe. Victoria #401
                     <br />
-                    Ciudad, País
+                    Col. Del Carmen. 24 de Febrero #399
+                    <br />
+                    Tepatitlan de Morelos Jal.
                   </p>
   
                 </div>
@@ -62,9 +64,9 @@ import {
                   </h3>
   
                   <p className="text-[#4f6257] mt-4 text-lg leading-relaxed">
-                    300 123 4567
+                    378 781 1916
                     <br />
-                    (601) 123 4567
+                    378 688 2781
                   </p>
   
                 </div>
