@@ -1,4 +1,5 @@
 import { Leaf } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const AboutSection = () => {
   return (
@@ -31,10 +32,23 @@ export const AboutSection = () => {
             cada bocado.
           </p>
 
-          <button className="mt-10 bg-white text-green-900 px-8 py-4 rounded-full text-xl font-semibold flex items-center gap-3 shadow-2xl">
-            Conócenos más
+<Link
+  to="/nosotros"
+          className="mt-10 bg-white text-green-900 px-8 py-4 rounded-full text-xl font-semibold flex items-center gap-3 shadow-2xl inline-flex"
+>
+          
+                      Conócenos más
             <Leaf size={24} />
-          </button>
+
+</Link>
+        
+        
+
+        
+
+          
+       
+   
 
         </div>
 
@@ -87,10 +101,14 @@ export const AboutSection = () => {
             única en cada bocado.
           </p>
 
-          <button className="mt-5 bg-white hover:bg-[#f3f3f3] text-green-900 px-8 py-4 rounded-full text-lg font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl">
-            Conócenos más
-            <Leaf size={22} />
-          </button>
+<Link
+to="/nosotros"
+className="mt-5 bg-white hover:bg-[#f3f3f3] text-green-900 px-8 py-4 rounded-full text-lg font-semibold flex items-center gap-5 transition-all duration-300 hover:scale-105 shadow-xl"
+>
+ Conócenos más
+ <Leaf size={22} />
+    </Link>
+
 
         </div>
       </div>

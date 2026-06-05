@@ -1,7 +1,6 @@
 const AboutHero = () => {
   return (
-    <section className="w-full h-auto md:min-h-screen bg-[#f8f4ee] pt-32 pb-24 md:pb-16 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+<section className="w-full bg-[#f8f4ee] pt-32 pb-24 md:pb-16 px-6">      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         
         <div>
           <span className="text-[#c0392b] uppercase tracking-[4px] text-sm font-semibold">

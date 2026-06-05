@@ -1,4 +1,5 @@
 import { Pizza, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -31,23 +32,29 @@ export const Hero = () => {
 
           <div className="relative flex justify-center lg:justify-end order-2 mt-[-40px] lg:mt-[0px]">
 
-            <img
-              src="/pizza-home.png"
-              alt="Pizza artesanal"
-              fetchPriority="high"
-              className="
-                w-[125%]
-                sm:w-[110%]
-                lg:w-[950px]
-                max-w-none
-                object-contain
-                drop-shadow-2xl
-                translate-x-10
-                mt-[-10px] lg:mt-0
-                sm:translate-x-16
-                lg:translate-x-40
-              "
-            />
+          <img
+  src="/pizza-home.png"
+  alt="Pizza artesanal"
+  fetchPriority="high"
+  className="
+    w-[125%]
+    sm:w-[110%]
+    lg:w-[950px]
+    min-[2560px]:w-[1250px]
+
+    max-w-none
+    object-contain
+    drop-shadow-2xl
+
+    translate-x-10
+    sm:translate-x-16
+    lg:translate-x-40
+    min-[2560px]:translate-x-52
+
+    mt-[-10px]
+    lg:mt-0
+  "
+/>
 
           </div>
 
@@ -69,15 +76,21 @@ export const Hero = () => {
   "
 >
 
-            <button className="bg-red-700 hover:bg-red-800 text-white px-7 py-4  rounded-full text-lg font-semibold flex items-center justify-center gap-3 transition-all duration-300 shadow-lg hover:scale-105 w-full sm:w-auto">
-              Ver menú
-              <Pizza size={20} />
-            </button>
+<Link
+  to="/menu"
+  className="bg-red-700 hover:bg-red-800 text-white px-7 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-3 transition-all duration-300 shadow-lg hover:scale-105 w-full sm:w-auto"
+>
+  Ver menú
+  <Pizza size={20} />
+</Link>
 
-            <button className="border-2 border-green-800 text-green-900 hover:bg-green-900 hover:text-white px-7 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-3 transition-all duration-300 w-full sm:w-auto mb-[20px] lg:mb-[0px]">
-              Pedir ahora
-              <MessageCircle size={20} />
-            </button>
+<Link
+  to="/contacto"
+  className="border-2 border-green-800 text-green-900 hover:bg-green-900 hover:text-white px-7 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-3 transition-all duration-300 w-full sm:w-auto mb-[20px] lg:mb-[0px]"
+>
+  Pedir ahora
+  <MessageCircle size={20} />
+</Link>
 
           </div>
 
