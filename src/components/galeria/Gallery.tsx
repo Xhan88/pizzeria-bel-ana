@@ -73,14 +73,16 @@ const Gallery = () => {
           <div className="flex items-center gap-5 mt-8">
 
             <a
-              href="#"
+              href="https://www.instagram.com/belanapizzeria/"
+              target="_blank"
               className="w-14 h-14 rounded-full bg-white flex items-center justify-center hover:scale-110 duration-300"
             >
               <i className="ri-instagram-line text-2xl text-[#135c34]" />
             </a>
 
             <a
-              href="#"
+              href="https://www.facebook.com/p/Belana-Pizzer%C3%ADa-61567613771775/"
+              target="_blank"
               className="w-14 h-14 rounded-full bg-white flex items-center justify-center hover:scale-110 duration-300"
             >
               <i className="ri-facebook-fill text-2xl text-[#135c34]" />

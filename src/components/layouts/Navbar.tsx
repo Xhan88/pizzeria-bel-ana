@@ -59,7 +59,7 @@ export const Navbar = () => {
           <div className="flex items-center gap-3">
             <button className="bg-red-800 text-white px-4 py-2 md:px-6 md:py-2.5 rounded-full text-xs md:text-sm font-semibold hover:bg-red-700 transition-all duration-300 shadow-md flex items-center gap-2 hover:scale-105">
               <span className="hidden xs:inline">Haz tu pedido</span>
-              <span className="xs:hidden">Haz tu Pedir</span>
+              <span className="xs:hidden">Haz tu Pedido</span>
               <Pizza size={16} />
             </button>
 

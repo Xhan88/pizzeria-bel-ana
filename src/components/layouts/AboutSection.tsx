@@ -91,7 +91,7 @@ export const AboutSection = () => {
 
             </div>
 
-            <div className="w-28 h-[2px] bg-white mt-6"></div>
+            <div className="w-28 h-[2px] bg-white mt-6 max-w-6xl"></div>
           </div>
 
           <p className="text-white/90 text-xl leading-relaxed max-w-md">
@@ -101,13 +101,13 @@ export const AboutSection = () => {
             única en cada bocado.
           </p>
 
-<Link
-to="/nosotros"
-className="mt-5 bg-white hover:bg-[#f3f3f3] text-green-900 px-8 py-4 rounded-full text-lg font-semibold flex items-center gap-5 transition-all duration-300 hover:scale-105 shadow-xl"
+          <Link
+  to="/nosotros"
+  className="mt-5 w-fit bg-white hover:bg-[#f3f3f3] text-green-900 px-8 py-4 rounded-full text-lg font-semibold flex items-center gap-5 transition-all duration-300 hover:scale-105 shadow-xl"
 >
- Conócenos más
- <Leaf size={22} />
-    </Link>
+  Conócenos más
+  <Leaf size={22} />
+</Link>
 
 
         </div>
