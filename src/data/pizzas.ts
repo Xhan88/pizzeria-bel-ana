@@ -1,37 +1,33 @@
 export const pizzas = [
     {
       id: 1,
-      name: "Margherita",
+      name: "Tradicional",
       description:
-        "Tomate, mozzarella, albahaca fresca y aceite de oliva.",
-      price: "$12.000",
-      image: "/pizzas/margherita.png",
+        "Pepperoni, jamon y champiñones.",
+      image: "/pizzas/tradicional.png",
     },
   
     {
       id: 2,
-      name: "Pepperoni",
+      name: "Bel-Ana",
       description:
-        "Pepperoni, mozzarella y salsa de tomate especial.",
-      price: "$13.500",
-      image: "/pizzas/pepperoni.png",
+        "Jamon, pepperoni, aceitunas negras, pimiento verde y champiñones.",
+      image: "/pizzas/belana.png",
     },
   
     {
       id: 3,
-      name: "Vegetariana",
+      name: "Porccino",
       description:
-        "Pimentón, champiñones, cebolla, aceitunas y mozzarella.",
-      price: "$12.500",
-      image: "/pizzas/vegetariana.png",
+        "Salami, pepperoni, jamon y tocino.",
+      image: "/pizzas/porccino.png",
     },
   
     {
       id: 4,
-      name: "BBQ Chicken",
+      name: "Primavera",
       description:
-        "Pollo, salsa BBQ, cebolla morada y mozzarella.",
-      price: "$13.500",
-      image: "/pizzas/bbq-chicken.png",
+        "Champiñones, jitomate cherry, pepperoni, albahaca y oregano.",
+      image: "/pizzas/primavera.png",
     },
   ];

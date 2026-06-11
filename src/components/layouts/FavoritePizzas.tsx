@@ -26,7 +26,6 @@ export const FavoritePizzas = () => {
               key={pizza.id}
               name={pizza.name}
               description={pizza.description}
-              price={pizza.price}
               image={pizza.image}
             />
           ))}

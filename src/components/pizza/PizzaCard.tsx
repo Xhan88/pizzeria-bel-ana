@@ -1,14 +1,12 @@
 type PizzaCardProps = {
   name: string;
   description: string;
-  price: string;
   image: string;
 };
 
 export const PizzaCard = ({
   name,
   description,
-  price,
   image,
 }: PizzaCardProps) => {
   return (
@@ -34,9 +32,6 @@ export const PizzaCard = ({
             {description}
           </p>
 
-          <span className="mt-3 text-red-700 text-2xl font-bold">
-            {price}
-          </span>
 
         </div>
       </div>
@@ -61,9 +56,7 @@ export const PizzaCard = ({
             {description}
           </p>
 
-          <span className="block mt-5 text-red-700 text-3xl font-bold">
-            {price}
-          </span>
+ 
 
         </div>
       </div>
