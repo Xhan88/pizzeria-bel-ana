@@ -25,12 +25,11 @@ export const Navbar = () => {
       src="/bel-ana-logo.png" 
       alt="Pizzería Bel Ana Logo" 
       className="
-        /* Mobile: tamaño controlado */
+        
         h-24 w-24 object-contain 
         
-        /* Desktop: Aquí sucede la magia */
         md:absolute 
-        md:-top-12 
+        md:-top-29 
         md:h-64 
         md:w-64 
         md:max-w-none

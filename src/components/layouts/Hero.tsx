@@ -24,8 +24,7 @@ export const Hero = () => {
             </h1>
 
             <p className="mt-5 text-[1.35rem] md:text-2xl text-gray-700 leading-relaxed max-w-xl">
-              Pizzas artesanales hechas con ingredientes
-              frescos y mucho amor.
+            Te ofrecemos deliciosas combinaciones de pizzas que te encantarán!
             </p>
 
           </div>
