@@ -1,7 +1,6 @@
-import { MenuCard } from "./MenuCard";
-import { ExtrasCard } from "./ExtrasCard";
-import { ComboCard } from "./ComboCard";
+
 import { Pizza } from "lucide-react";
+import Menu from "./Menu";
 
 export const MenuSection = () => {
   return (
@@ -37,49 +36,8 @@ export const MenuSection = () => {
 
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-8 mt-20">
+        <Menu />
 
-          <div className="space-y-8">
-
-            <MenuCard
-              image="./pizzas/margherita.png"
-              title="Margherita"
-              description="Tomate, mozzarella, albahaca fresca y aceite de oliva."
-              price="$12.000"
-              tags={["Vegetariana", "Masa artesanal"]}
-            />
-
-            <MenuCard
-              image="/pizzas/pepperoni.png"
-              title="Pepperoni"
-              description="Pepperoni, mozzarella y salsa de tomate especial."
-              price="$13.500"
-              tags={["Clásica"]}
-            />
-
-            <MenuCard
-              image="/pizzas/bbq-chicken.png"
-              title="Vegetariana"
-              description="Pimentón, champiñones, cebolla, aceitunas y mozzarella."
-              price="$12.500"
-              tags={["Vegetariana", "Masa artesanal"]}
-            />
-            <MenuCard
-              image="/pizzas/vegetariana.png"
-              title="Hawaiana"
-              description="Pimentón, champiñones, cebolla, aceitunas y mozzarella."
-              price="$12.500"
-              tags={["Vegetariana", "Masa artesanal"]}
-            />
-
-          </div>
-
-          <div>
-  <ExtrasCard />
-  <ComboCard />
-</div>
-
-        </div>
 
       </div>
     </section>
