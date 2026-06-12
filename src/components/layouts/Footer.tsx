@@ -96,8 +96,9 @@ import {
               </h4>
   
               <div className="space-y-3 text-gray-700 text-lg">
-                <p>Lunes a Domingo</p>
-                <p>12:00 pm - 10:00 pm</p>
+                <p>Lunes, Miércoles, Jueves, Viernes, Sábado y Domingo</p>
+                <p>1:00 PM – 10:00 PM</p>
+                <p>Martes Cerrado</p>
               </div>
             </div>
   
@@ -111,12 +112,12 @@ import {
   
                 <div className="flex items-center gap-3">
                   <Phone size={20} className="text-[#184d2f]" />
-                  <span>300 123 4567</span>
+                  <span>378 781 1916</span>
                 </div>
   
                 <div className="flex items-center gap-3">
                   <MessageCircle size={20} className="text-[#184d2f]" />
-                  <span>300 123 4567</span>
+                  <span>378 688 2781 </span>
                 </div>
   
                 <div className="flex items-start gap-3">
@@ -125,7 +126,8 @@ import {
                     className="text-[#184d2f] mt-1"
                   />
                   <span>
-                    Calle 123 #45-67
+                  Col. Centro Gpe. Victoria #401
+                  Col. Del Carmen. 24 de Febrero #399
                     <br />
                     Ciudad, País
                   </span>
