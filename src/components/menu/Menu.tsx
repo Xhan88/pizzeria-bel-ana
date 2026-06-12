@@ -126,7 +126,6 @@ export default function Menu() {
             ))}
           </div>
 
-          {/* Columna derecha */}
           <div>
             <h2 className="mb-8 text-4xl font-extrabold uppercase text-[#7A1221]">
               De la Casa

@@ -43,30 +43,30 @@ import {
              
               <div className="flex items-center gap-4 mt-6">
 
-<a
-  href="https://www.instagram.com/belanapizzeria/"
-  target="_blank"
-  className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
->
-<FaInstagram size={18} />
-</a>
+            <a
+              href="https://www.instagram.com/belanapizzeria/"
+              target="_blank"
+              className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
+            >
+            <FaInstagram size={18} />
+            </a>
 
-<a
-  href="https://www.facebook.com/p/Belana-Pizzer%C3%ADa-61567613771775/"
-  target="_blank"
-  className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
->
-<FaFacebookF size={18} />
-</a>
+            <a
+              href="https://www.facebook.com/p/Belana-Pizzer%C3%ADa-61567613771775/"
+              target="_blank"
+              className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
+            >
+            <FaFacebookF size={18} />
+            </a>
 
-<a
-  href="#"
-  className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
->
-  <MessageCircle size={20} />
-</a>
+            <a
+              href="#"
+              className="w-10 h-10 rounded-full bg-[#14532d] flex items-center justify-center text-white hover:scale-110 transition"
+            >
+              <MessageCircle size={20} />
+            </a>
 
-</div>
+            </div>
             </div>
   
             

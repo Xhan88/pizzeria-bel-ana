@@ -12,11 +12,11 @@ import {
   
         <div className="max-w-7xl mx-auto px-6">
   
-          <div className="bg-white rounded-[30px] shadow-sm border border-[#ece7df] p-10">
+          <div className="bg-white rounded-[30px] shadow-sm border border-[#ece7df] p-5">
   
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
   
-              <div className="flex items-start gap-5">
+              <div className="flex items-center gap-5">
   
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
@@ -44,7 +44,7 @@ import {
                 </div>
               </div>
   
-              <div className="flex items-start gap-5 border-t md:border-t-0 md:border-l border-[#ece7df] pt-8 md:pt-0 md:pl-10">
+              <div className="flex items-center gap-5 border-t md:border-t-0 md:border-l border-[#ece7df] pt-8 md:pt-0 md:pl-10">
   
                 
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
@@ -72,7 +72,7 @@ import {
                 </div>
               </div>
   
-              <div className="flex items-start gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
+              <div className="flex items-center gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
   
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
   
@@ -96,7 +96,7 @@ import {
               </div>
   
         
-              <div className="flex items-start gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
+              <div className="flex  items-center gap-5 border-t lg:border-t-0 lg:border-l border-[#ece7df] pt-8 lg:pt-0 lg:pl-10">
   
          
                 <div className="min-w-[60px] h-[60px] rounded-full bg-[#0d4b2a] flex items-center justify-center">
@@ -115,9 +115,12 @@ import {
                   </h3>
   
                   <p className="text-[#4f6257] mt-4 text-lg leading-relaxed">
-                    Lunes a Domingo
+                  Lunes, Miércoles, Jueves, Viernes, Sábado y Domingo
                     <br />
-                    12:00 pm - 10:00 pm
+                    1:00 PM – 10:00 PM
+                  </p>
+                  <p>
+                    Martes Cerrado
                   </p>
   
                 </div>
