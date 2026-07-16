@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { Footer } from "./components/layouts/Footer";
 import Loading from "./components/loading/Loading";
@@ -7,18 +9,33 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { AppRouter } from "./routes/AppRouter";
 
 function App() {
-
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 100,
+      delay: 0,
+    });
+  }, []);
 
-    const timer = setTimeout(() => {
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
       setLoading(false);
     }, 3000);
 
-    return () => clearTimeout(timer);
-
+    return () => window.clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      requestAnimationFrame(() => {
+        AOS.refreshHard();
+      });
+    }
+  }, [loading]);
 
   if (loading) {
     return <Loading />;
@@ -26,7 +43,7 @@ function App() {
 
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <Navbar />
       <AppRouter />
       <Footer />

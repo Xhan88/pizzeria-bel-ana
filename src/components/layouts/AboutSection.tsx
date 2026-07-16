@@ -7,9 +7,9 @@ export const AboutSection = () => {
 
       <div className="md:hidden">
 
-        <div className="relative px-6 pt-16 pb-14 bg-gradient-to-br from-[#0b4d2c] via-[#0d5b33] to-[#08361f]">
+        <div data-aos="fade-up" className="relative px-6 pt-16 pb-14 bg-gradient-to-br from-[#0b4d2c] via-[#0d5b33] to-[#08361f]">
 
-          <div className="flex items-center gap-2">
+          <div  className="flex items-center gap-2">
 
             <h2 className="text-[3rem] font-bold text-white leading-none">
               Sobre
@@ -22,9 +22,10 @@ export const AboutSection = () => {
             />
           </div>
 
-          <div className="w-20 h-[2px] bg-white mt-4"></div>
+          <div data-aos="fade-up"
+     data-aos-duration="3000" className="w-20 h-[2px] bg-white mt-4"></div>
 
-          <p className="text-white/95 text-[1.9rem] leading-relaxed mt-8 max-w-[320px]">
+          <p  className="text-white/95 text-[1.9rem] leading-relaxed mt-8 max-w-[320px]">
             Somos una pizzería artesanal que nace
             del amor por la buena comida. Usamos
             ingredientes frescos y recetas auténticas

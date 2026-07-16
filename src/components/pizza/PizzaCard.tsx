@@ -10,7 +10,7 @@ export const PizzaCard = ({
   image,
 }: PizzaCardProps) => {
   return (
-    <article className="bg-white rounded-[28px] shadow-xl overflow-hidden hover:-translate-y-2 transition-all duration-300 group">
+    <article  data-aos="fade-up" className="bg-white rounded-[28px] shadow-xl overflow-hidden hover:-translate-y-2 transition-all duration-300 group">
       
       <div className="flex items-center gap-4 p-4 md:hidden">
         

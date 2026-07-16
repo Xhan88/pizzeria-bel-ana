@@ -19,7 +19,7 @@ export const FavoritePizzas = () => {
 
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10">
+        <div  className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10">
 
           {pizzas.map((pizza) => (
             <PizzaCard

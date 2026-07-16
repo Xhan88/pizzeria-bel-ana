@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
+
+
     <section className="relative overflow-hidden bg-[#f7f4ef] min-h-screen">
 
       <div className="max-w-7xl mx-auto relative">
 
         <div className="grid lg:grid-cols-2 items-center min-h-screen">
 
-          <div className="relative z-10 px-5  lg:px-8 lg:pt-0 flex flex-col order-1 ">
+          <div data-aos="fade-up" className="relative z-10 px-5  lg:px-8 lg:pt-0 flex flex-col order-1 ">
 
             <h1 className="text-[3.2rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight sm:mt-[-70px] mt-[-00px] ">
 
@@ -57,7 +59,7 @@ export const Hero = () => {
 
           </div>
 
-          <div
+          <div data-aos="fade-up"
   className="
     flex flex-col sm:flex-row gap-4
     px-5 lg:px-8
